@@ -61,7 +61,8 @@ function NewArrival () {
             {popularItems.map(function (item, index) {
               return (
                 <div className='card' key={index}>
-                  <img src={item.img} alt={item.category} />
+                {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
+                <img src={item.img} alt={item.category} />
                   <p>{item.category}</p>
                 </div>
               )
