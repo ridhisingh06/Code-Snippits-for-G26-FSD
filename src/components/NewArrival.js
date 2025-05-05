@@ -91,8 +91,7 @@ function NewArrival () {
             const discount = Math.round(((item.originalPrice - item.price) / item.originalPrice) * 100)
             return (
               <div className='card' key={index}>
-                {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
-                <img src={item.img} alt="" />
+                <img src={item.img} />
                 <div className='price-block'>
                   <span className='price'>₹{item.price}</span>
                   <span className='cut'>₹{item.originalPrice}</span>
