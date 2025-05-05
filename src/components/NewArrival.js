@@ -79,7 +79,7 @@ function NewArrival () {
       <div className='section product-mrp'>
         <h2>TRENDING</h2>
         <div className='full-image-container'>
-          <img src={img12} alt='Product MRP Full Image' className='full-width-img' />
+          <img src={img12} alt='' className='full-width-img' />
         </div>
       </div>
 
