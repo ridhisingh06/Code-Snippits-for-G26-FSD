@@ -32,7 +32,7 @@ const Footer = () => {
           <a 
             href="https://www.facebook.com/bewakoofcom"
             target="_blank"
-           
+            rel="noreferrer"
             className="footer-social-link">
           
             <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png"alt="Facebook"className="footer-social-icon"/></a>
@@ -42,14 +42,14 @@ const Footer = () => {
           <a 
           href="https://www.instagram.com/bewakoof/"
           target="_blank"
-          
+          rel="noreferrer"
           className="footer-social-link">
           
             <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png"alt="Instagram"className="footer-social-icon"/>
             </a>
             </li>
           <li>
-          <a href="https://twitter.com/bewakoof"target="_blank" 
+          <a href="https://twitter.com/bewakoof"target="_blank" rel="noreferrer"
               className="footer-social-link">
             
               <img
@@ -62,7 +62,7 @@ const Footer = () => {
             <a
               href="https://www.snapchat.com/add/bewakoof"
               target="_blank"
-              
+              rel="noreferrer"
               className="footer-social-link">
           
               <img
