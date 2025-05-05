@@ -61,7 +61,7 @@ function NewArrival () {
             {popularItems.map(function (item, index) {
               return (
                 <div className='card' key={index}>
-                {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
+                {}
                 <img src={item.img} alt={item.category} />
                   <p>{item.category}</p>
                 </div>
@@ -91,6 +91,7 @@ function NewArrival () {
             const discount = Math.round(((item.originalPrice - item.price) / item.originalPrice) * 100)
             return (
               <div className='card' key={index}>
+                {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
                 <img src={item.img} alt="" />
                 <div className='price-block'>
                   <span className='price'>₹{item.price}</span>
